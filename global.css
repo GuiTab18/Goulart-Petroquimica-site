@@ -1,42 +1,81 @@
+
 body {
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
-    width: 100vw;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     padding: 0;
     display: flex;
-    justify-content: center;
-
-}
-
-header p {
-    background-color: aqua;
-    float: left;
-    margin: 0 10px 0 10px;
-    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 0px 2px 22px -12px rgba(0,0,0,0.59);
+    margin: 0;
+    
     
 }
 
+header img {
+    width: auto;
+    height: 40px;
+    margin-left: 1vw;
+}
+
+header ul {
+    margin: 0;
+}
+
+header p {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 16px 15px;
+    float: left;
+    
+    
+}
+
+header p:hover {
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+}
+
+#search {
+    font-size: x-large;
+    margin-right: 1vw;
+}
+
+
 .main-content {
-margin-left: 5vw;
-margin-right: 5vw;
+margin: 10vh 5vw;
 text-align: justify;
+font-family:"Poppins", serif;
 }
 
 .main-content p {
-    margin: 0 20vh;
+    margin: 2vh 15vw;
 }
 
 
 .main-content .titles {
     text-align: center;
-    margin: 20vh 0;
+    margin: 15vh 0;
 }
 
 .main-content li {
-    margin: 0 18vh;
+    margin: 0 15vw;
     text-align: left;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox img {
+    width: 25vw;
+    height: auto;
 }
 
