@@ -1,0 +1,80 @@
+.main-content {
+margin: 10vh 5vw;
+text-align: justify;
+}
+
+.main-content h1.titles {
+    margin-bottom: 200px;
+    font-size:3rem;
+}
+
+.main-content p {
+    margin: 0;
+}
+
+
+.main-content .titles {
+    text-align: center;
+    margin: 15vh 0 15vh 0vw;
+}
+
+.main-content li {
+    margin: 0;
+    text-align: left;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom:150px;
+}
+
+.flexbox #oil-pump {
+    width: 25vw;
+    height: auto;
+}
+
+#segimg {
+    float: left;
+}
+
+#maintext {
+    /*background-color: burlywood;*/
+    margin-bottom: 30vh;
+}
+
+.containers {
+    display: flex;
+    /*background-color: brown;*/
+    align-items: center;
+}   
+
+#aaaa {
+    height: 500px;
+    border-radius: 24px;
+    margin-right: 8vw;
+
+
+}
+
+#aaaa2 {
+    height: 300px;
+    box-shadow: 0px 0px 19px 2px rgba(0,0,0,0.50);
+    border-radius: 24px;
+    margin-left: 8vw;
+}
+
+#container-final {
+    margin: 0 15vw;
+}
+
+#container-final div {
+    display: flex;
+    justify-content: center;
+}
+
+#container-final img {
+    height: 384px;
+    width: auto;
+    margin-top: 50px;
+}
