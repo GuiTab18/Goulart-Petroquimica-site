@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(226, 217, 209);
+}
+
+
+#container-a {
+    display: flex;
+    justify-content: center;
+}
+
+#container-main {
+    padding:0 5vw 15vh 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#subcontainer-a {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+#cardcontainer {
+    display: flex;
+    gap: 1vw;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#maintext {
+    position: absolute;
+    color: white;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.775);
+    align-self: center;
+    font-size: 3rem;
+    background-color: black;
+    padding: 0 8px; 
+}
+
+.card {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    align-items: center;
+    overflow-y: scroll;
+    aspect-ratio: 5/12;
+    padding: 10px 15px;
+    backdrop-filter: gradient(5px);
+    box-shadow: 0px 2px 10px -5px rgba(0, 0, 0, 0.756);
+}
+
+img#banner {
+    width: 100%;
+    height: auto;
+}
+
+.subtextoimportante {
+    align-self: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+#img2 {
+    width: 30vw;
+    height: 30vw;
+}
+
+.card-img {
+    width: 10vw;
+    height: 10vw;
+}
+
+abbr {
+    text-decoration: none;
+}
+

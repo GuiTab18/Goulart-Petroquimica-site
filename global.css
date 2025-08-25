@@ -3,6 +3,8 @@ body {
     margin: 0;
     background-color: rgb(255, 255, 255);
     font-family:"Poppins", serif;
+    font-size: medium;
+    font-weight: 300 ;
 }
 
 header {
@@ -53,4 +55,7 @@ header a {
     margin-right: 1vw;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 
