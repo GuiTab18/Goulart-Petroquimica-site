@@ -70,6 +70,7 @@ img#banner {
 .card-img {
     width: 10vw;
     height: 10vw;
+    border-radius: 100%;
 }
 
 abbr {
